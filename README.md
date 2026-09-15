@@ -25,7 +25,7 @@
 
 **Mothfall** is a long-standing collaborative Minecraft building server founded in 2017. It opened publicly in 2024.
 
-This repository powers the official website, themed vaguely around a vintage postcard and travel guide aesthetic.
+This repository powers the official website, which is themed vaguely on a postcard & travel guide aesthetic.
 
 | 🌐 Website | 🎮 Server IP | 💬 Discord |
 | :--- | :--- | :--- |
