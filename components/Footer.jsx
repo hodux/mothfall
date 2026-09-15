@@ -21,11 +21,8 @@ export default function Footer() {
               MOTHFALL
             </Link>
             <p className="text-stone-600 dark:text-stone-400 text-sm mt-2 font-medium">our canvas • your creativity</p>
-            <div className="inline-flex items-center gap-1 text-[11px] font-mono uppercase tracking-wider text-stone-500 dark:text-stone-400 mt-3 px-2 py-0.5 rounded bg-stone-200/70 dark:bg-stone-800/80 border border-stone-300 dark:border-stone-700">
-              <span>✉️</span> DISPATCH DIVISION
-            </div>
 
-            <div className="mt-4">
+            <div className="mt-3 -translate-x-1">
               <div
                 role="group"
                 aria-label="Theme preference"
@@ -105,10 +102,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Server Dispatch column */}
+          {/* Server column */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-stone-500 dark:text-stone-400 mb-4">
-              SERVER DISPATCH
+              SERVER
             </h3>
             <div className="text-stone-900 dark:text-white font-bold text-base">Mothfall</div>
             <div className='flex gap-1.5'>
