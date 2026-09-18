@@ -172,17 +172,17 @@ export default function CommunityPage() {
         </motion.div>
 
         {/* Footer Link */}
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-          className="flex flex-col w-[200px] mx-auto items-center justify-center px-5 py-3.5 rounded-2xl border-2 bg-white dark:bg-surface border-stone-200/90 dark:border-border shadow-xs text-stone-800 dark:text-stone-200 hover:text-sky-600 dark:hover:text-sky-400 mt-8 transition-colors font-bold uppercase tracking-wider text-xs gap-1.5"
-        >
-          <Link href="/play">
+        <Link href="/play">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+            className="flex flex-col w-[200px] mx-auto items-center justify-center px-5 py-3.5 rounded-2xl border-2 bg-white dark:bg-surface border-stone-200/90 dark:border-border shadow-xs text-stone-800 dark:text-stone-200 hover:text-sky-600 dark:hover:text-sky-400 mt-8 transition-colors font-bold uppercase tracking-wider text-xs gap-1.5"
+          >
             Play Now &rarr;
-          </Link>
-        </motion.div>
+          </motion.div>
+        </Link>
 
       </div>
     </div>
