@@ -39,7 +39,7 @@ export default function InfoBox() {
 
             {/* right image  */}
             <div className="shrink-0 w-full lg:w-35 h-35 bg-surface-light border-2 border-border rounded-2xl justify-center hidden lg:flex self-center overflow-hidden shadow-sm p-2">
-              <Image src="/assets/logo_bg.webp" width={140} height={140} className="rounded-xl object-contain" alt="Mothfall Logo" />
+              <Image src="/assets/logo_bg.png" width={140} height={140} className="rounded-xl object-contain" alt="Mothfall Logo" />
             </div>
           </div>
         </div>
