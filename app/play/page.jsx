@@ -32,7 +32,7 @@ export default function PlayPage() {
   };
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center pt-12 px-4">
+    <div className="min-h-screen flex items-center justify-center pt-30 pb-20 px-4">
       <div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="w-full flex flex-col items-center text-center max-w-4xl" >
         {/* header */}
         <h1 className="text-7xl font-black text-foreground tracking-tight mt-4">
