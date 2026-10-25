@@ -23,7 +23,7 @@ export default function Hero() {
       {/* video */}
       <div className="absolute inset-0 w-full h-full z-0">
         <video
-          src="/videos/hero-video.webm"
+          src="/videos/hero.webm"
           autoPlay
           muted
           loop
