@@ -18,8 +18,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: {
-    default: "Home | Mothfall",
-    template: "%s | Mothfall",
+    default: "Home - Mothfall",
+    template: "%s - Mothfall",
   },
   description:
     "Mothfall is a Minecraft server for builders. Explore unique worlds, collaborate on projects, get feedback and hangout with the community.",
